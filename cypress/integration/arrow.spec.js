@@ -1,7 +1,5 @@
 it ('nada ainda', function(){})
 //Note: Alguns exemplos de uso do Arrow "=>" e no final, exemplo que o arrow não funciona devido o "this" que não vê o contexto
-
-
 // function soma(a,b){
 //     return a+b;
 // }
