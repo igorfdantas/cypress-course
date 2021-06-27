@@ -1,3 +1,5 @@
+/// <reference types="cypress"/>
+
 //it.only('A external test... ', () => {})
 
 describe('Should group tests...', () => {

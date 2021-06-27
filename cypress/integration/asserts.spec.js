@@ -1,3 +1,5 @@
+/// <reference types="cypress"/>
+
 it('Equality', () => {
   const a = 1;
 
@@ -82,7 +84,7 @@ it('Numbers', () => {
   expect(number).to.be.below(7)//abaixo de
   expect(floatNumber).to.be.equal(5.23)
   expect(floatNumber).to.be.closeTo(5.2, 0.05)//aproximadamente com margem de ... pra cima ou pra baixo
-  
+
   
 
 })
