@@ -32,7 +32,6 @@ describe('Cypress basics', () => {
     cy.get('#buttonSimple')
       .click()
       .should('have.value', "Obrigado!")
-
   })
 
 
